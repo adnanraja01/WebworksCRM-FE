@@ -1,0 +1,20 @@
+.agent {
+  &_info {
+    &_wrapper {
+      //   border: 2px solid red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 42rem;
+      flex-direction: column;
+    }
+    &_container {
+      //   border: 2px solid red;
+      margin: 10rem 0rem 0rem -3rem;
+      width: 40rem;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-gap: 6rem 3rem;
+    }
+  }
+}

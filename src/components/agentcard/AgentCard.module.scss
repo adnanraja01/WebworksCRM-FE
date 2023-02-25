@@ -1,0 +1,95 @@
+@import "../../sass/main.scss";
+.card {
+  &_container {
+    display: flex;
+    justify-content: space-around;
+    font-family: $font-family-jost;
+    padding: 0.6rem;
+    width: 38rem;
+    height: 30rem;
+    background-color: $bg-agent-card;
+    margin: 0rem auto;
+    border-radius: 1rem;
+  }
+  &_container:hover {
+    // box-shadow: 8px 8px 6px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  &_profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    color: $heading-color-1;
+    color: #000;
+    &_img {
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+      img {
+        width: 6rem;
+        height: 6rem;
+        background-size: cover;
+        border-radius: 50%;
+      }
+    }
+    &_name {
+      margin-bottom: 0.8rem;
+      font-size: $font-size-24;
+      font-weight: $font-weight-medium;
+      letter-spacing: 1.2px;
+    }
+    &_designation,
+    &_email {
+      margin-bottom: 0.6rem;
+      font-size: $font-size-18;
+      font-weight: $font-weight-medium;
+      letter-spacing: 1.2px;
+      text-align: center;
+      word-break: break-word;
+    }
+    &_btn {
+      margin-top: 1.5rem;
+      font-size: $font-size-18;
+      width: 12rem;
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
+      color: #fff;
+      background-color: $main-color-4;
+      font-weight: $font-weight-medium;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+      gap: 1rem;
+      img {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+    // &_btn:hover {
+    //   background-color: #403f43;
+    // }
+    &_btn:active {
+      // background-color: #403f43;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;
+    }
+  }
+  &_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35%;
+    &_status {
+      border-radius: 0.5rem;
+      background-color: #e9e9ea;
+      padding: 1.2rem;
+      text-align: center;
+      &_data {
+        font-size: $font-size-20;
+        font-weight: $font-weight-medium;
+      }
+      &_type {
+        font-size: $font-size-18;
+        color: #6a696d;
+        // color: #fff;
+      }
+    }
+  }
+}

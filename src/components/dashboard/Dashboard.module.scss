@@ -1,0 +1,16 @@
+.agent_dash {
+  &_body {
+    display: flex;
+    // border: 2px solid red;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+  }
+}
+.transaction {
+  &_table {
+    margin-top: 2.5rem !important;
+    height: 35rem !important;
+    width: 100% !important;
+  }
+}

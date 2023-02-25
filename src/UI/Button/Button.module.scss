@@ -1,0 +1,64 @@
+@import "../../sass/main.scss";
+
+.button {
+  font-size: $button-font-size-sm;
+  font-family: $font-family-jost;
+  padding: 1rem 1.5rem;
+  font-weight: $font-weight-light;
+  border-radius: 0.4rem;
+  &:hover {
+    cursor: pointer;
+  }
+  img {
+    margin-right: 0.5rem;
+    width: 2rem;
+  }
+  &_white_line {
+    border: 0.2rem solid $color-white;
+    color: $color-white;
+  }
+  &_blue_line {
+    border: 0.2rem solid $color-main-blue;
+    color: $color-main-blue;
+  }
+  &_blue_svg {
+    background-color: $color-main-blue;
+    color: $color-white;
+  }
+  &_arrow_svg {
+    background-color: $color-main-blue;
+    color: $color-white;
+    font-weight: $font-weight-medium;
+    &_text {
+      gap: 1rem;
+    }
+  }
+
+  &_gd_blue {
+    background-image: linear-gradient(
+      to right,
+      $color-main-blue 0%,
+      $color-main-blue 100%
+    );
+  }
+}
+
+.btn {
+  cursor: pointer;
+  width: 21rem;
+  height: 5rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: $main-color-4;
+  color: #fff;
+  font-size: $font-size-15;
+  font-weight: $font-weight-medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+.btn:active {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;
+}

@@ -1,0 +1,73 @@
+@import "../../sass/main.scss";
+
+.input {
+  position: relative;
+  border-color: #284b63;
+  input {
+    border-color: #284b63;
+    font-size: 1.6rem;
+    color: #495055;
+    // width: 350px;
+    // padding: 15px 15px;
+    border-radius: 1rem;
+    border: 2px solid #d9d9d9;
+    outline: none;
+    background-color: #dee2e6;
+  }
+  &_label {
+    position: absolute;
+    margin: 13px 0;
+    padding: 0 4px;
+    color: #6c757d;
+    // color: black;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    top: 0;
+    left: 17px;
+    transition: all 0.2s;
+    transform-origin: 0% 0%;
+    background: none;
+    pointer-events: none;
+    font-weight: 600;
+  }
+
+  input:valid + &_label,
+  input:focus + &_label {
+    transform: scale(0.8) translateY(-30px);
+    background: $background-color;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  input:focus {
+    color: #284b63;
+    border-color: #284b63;
+    background-color: #dee2e6;
+  }
+  input:focus + &_label {
+    color: #284b63;
+    border-color: #284b63;
+
+  }
+  // input:-webkit-autofill + input;
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #dee2e6 inset !important;
+    border-color: #284b63;
+  }
+
+  input:autofill + &_label{
+    transform: scale(0.8) translateY(-30px);
+    background: $background-color;
+    font-size: 2rem;
+    font-weight: 500;
+   
+
+
+  }
+  input{
+    border-color: #284b63;
+  }
+}

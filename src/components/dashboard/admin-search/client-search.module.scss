@@ -1,0 +1,49 @@
+@import "../../../sass/main.scss";
+
+.client_search {
+  &_wrapper {
+    width: 100%;
+    // border: solid red;
+
+    padding: 1rem;
+    font-family: $font-family-jost;
+    padding: 3.5rem;
+
+    select {
+      font-size: $font-size-18;
+      background-color: white;
+      padding: 1.6rem;
+      //   border : solid green;
+      position: absolute;
+      top: 0rem;
+      right: 11rem;
+      option {
+        font-size: $font-size-18;
+      }
+    }
+  }
+
+  &_container {
+    // border: solid red;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  &_input {
+    width: 30vw;
+    font-size: $font-size-18;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    // margin: auto !important;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
+    overflow: hidden;
+    // margin-left: 5%;
+    // position: absolute;
+    // top: 5px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

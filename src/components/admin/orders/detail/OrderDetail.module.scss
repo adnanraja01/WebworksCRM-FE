@@ -1,0 +1,59 @@
+@import "../../../../sass/main.scss";
+
+.order_detail {
+  &_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  &_info {
+    margin: 10rem 0rem 0rem -3rem;
+    width: 40rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 6rem 3rem;
+  }
+  &_desc {
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 70rem;
+    min-height: 40rem;
+    h2 {
+      margin-top: 4rem;
+      font-size: $font-size-16;
+      letter-spacing: 1px;
+    }
+    &_head {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      text-align: center;
+      width: 98%;
+      height: 7rem;
+      background-color: $main-color-4;
+      border-radius: 0.5rem;
+      color: #fff;
+      position: absolute;
+      top: -8%;
+      left: 1%;
+      h1 {
+        font-size: $font-size-22;
+        padding: 1.5rem;
+      }
+    }
+  }
+  &_error {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: $color-label;
+  }
+}

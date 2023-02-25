@@ -1,0 +1,60 @@
+@import "../../sass/main.scss";
+
+.pagination {
+  &_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    font-size: 2rem;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  &_page {
+    width: 4.4rem;
+    height: 4.4rem;
+    background-color: #1e5c80;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      font-size: 2rem;
+      text-decoration: none;
+      color: #fff;
+      padding: 1.5rem;
+      border-radius: 50%;
+    }
+  }
+  &_page_link:link,
+  &_page_link:visited {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #294c88;
+    height: 3.6rem;
+    width: 3.6rem;
+    border-radius: 50%;
+  }
+  &_page:hover {
+    background-color: #0a486c;
+    color: #fff;
+  }
+  &_break {
+    overflow: hidden;
+    color: #0a486c;
+  }
+  &_active {
+    background-color: #fff;
+    a {
+      color: #172b4d;
+      font-weight: 500;
+    }
+  }
+  &_active:hover,
+  &_active:active {
+    background-color: #c4ccd5;
+  }
+}

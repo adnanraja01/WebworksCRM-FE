@@ -1,0 +1,68 @@
+@import "../../sass/main.scss";
+
+.breadcrumb {
+  &_wrapper {
+    font-family: $font-family-jost;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    min-width: 100%;
+    max-height: 8rem;
+    // border: 2px solid red;
+    margin-top: 1rem;
+    color: $main-color-4;
+    h1 {
+      font-size: $font-size-26;
+      font-weight: $font-weight-bold;
+      color: $main-color-4;
+      width: auto;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+  &_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 2px solid green;
+    p {
+      font-family: inherit;
+      font-size: $font-size-14;
+      font-weight: $font-weight-bold;
+      margin-right: 0.5rem;
+      color: $main-color-4;
+    }
+  }
+  &_div {
+    &_left {
+      display: flex;
+
+      img {
+        margin: 0rem 2rem;
+      }
+    }
+  }
+  &_user {
+    // border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-family: inherit;
+      font-size: $font-size-14;
+      font-weight: 700;
+      margin-right: 0.5rem;
+      color: $main-color-4;
+    }
+    &_img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+      background-color: #145276;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 1.5rem;
+    }
+  }
+}

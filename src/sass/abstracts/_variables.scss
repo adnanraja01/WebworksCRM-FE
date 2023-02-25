@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100&display=swap");
+
+
+// $bg-color-main: #F1F3F9;
+$bg-color-main: pink;
+$bg-white: #ffffff;
+$bg-lightgray: #f7fafc;
+// font family
+
+//main colors
+$main-color-1: #11cdef;
+$main-color-2: #172b4d;
+$main-color-3: #7764e4;
+$main-color-4: #ff7800;
+
+
+
+// aside nav links colors
+$home-link-color: #7764e4;
+$product-link-color: #11cdef;
+$agent-link-color: #f53c56;
+$order-link-color: #feb969;
+$store-link-color: #2dce98;
+$logout-link-color: #f53c56;
+
+//button colors
+
+$btn-color-purple: #7764e4;
+$btn-color-light-blue: #11cdef;
+$btn-color-dark-blue: #172b4d;
+$btn-color-blue: #294c88;
+$btn-color-white: #ffffff;
+$btn-color-red: #f53c56;
+$btn-color-green: #2dce98;
+
+$btn-border-dark-blue: #172b4d;
+$btn-font-dark-blue: #172b4d;
+$btn-font-white: #ffffff;
+
+//font-sizes
+$font-size-headline: 3.5rem;
+$font-size-title: 2.8rem;
+$font-size-header: 2.5rem;
+$font-size-btn: 1.8rem;
+$font-size-second-body: 1.5rem;
+$font-size-regular: 1.3rem;
+$font-size-small: 1.1rem;
+
+//box-shadows
+$box-shadow-color: #171717;
+
+//UI sizes
+
+$aside_nav-size: 18vw;
+//dashboard
+$dashboard-width: 82vw;
+$dashboard-height: 37.8rem;
+$dashboard-card-size: 27rem;
+
+// card size
+$agent-card-width: 23rem;
+$store-card-width: 23rem;
+
+// All agents wrapper
+
+$all-agents-wrapper-width: 75vw;
+$all-agents-wrapper-height: 76rem;
+
+//UI container
+
+$container-xxl-width: 100vw;
+$form-container-width: 74.05rem;
+
+// add agent form input field
+
+$form-input-field-width: 32rem;
+
+// add agent page
+$add-agent-section-width: 112.1rem;
+// store details
+
+$store-details-container: 103rem;
+//agent profile
+$agent-profile-width: 103rem;
+$agent-profile-table-width: 60rem;
+$agent-profile-table-wrapper-width: 62rem;
+
+// cart realted variables
+
+$cart-items-container-width: 103rem;
+
+//store payment details
+
+$store-payment-wrapper-width: 70vw;
+@font-face {
+  font-family: "jost";
+  src: url("../../assets/Jost/static/Jost-Regular.ttf"),
+    url("../../assets/Jost/Jost-VariableFont_wght.ttf");
+  font-weight: normal;
+}
+
+$font-family-jost: "jost", "Roboto Serif", serif;
+
+// font sizes
+
+$font-size-sm: 1.1rem;
+$font-size-regular: 1.3rem;
+$font-size-second: 1.5rem;
+$font-size-12: 1.2rem;
+$font-size-14: 1.4rem;
+$font-size-16: 1.6rem;
+$font-size-15: 1.5rem;
+$font-size-18: 1.8rem;
+$font-size-20: 2rem;
+
+$font-size-26: 2.6rem;
+
+$font-size-22: 2.2rem;
+$font-size-24: 2.4rem;
+$font-size-md: 1.8rem;
+
+$font-size-14: 1.4rem;
+$font-size-16: 1.6rem;
+$font-size-15: 1.5rem;
+$font-size-18: 1.8rem;
+// $font-size-md: 1.8rem;
+$font-size-22: 2.2rem;
+$font-size-24: 2.4rem;
+
+$font-size-26: 2.6rem;
+$font-size-60: 6rem;
+
+$font-size-header: 2.6rem;
+$font-size-title: 2.8rem;
+$font-size-30: 3rem;
+$font-size-headline: 3.5rem;
+$font_size-xxl: 6rem;
+
+// font weight
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra_bold: 800;
+
+// new colors
+
+
+// new colors  
+
+$main-color-4 :#145276 ;  
+

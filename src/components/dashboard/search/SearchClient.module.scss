@@ -1,0 +1,99 @@
+@import "../../../sass/main.scss";
+
+.search_client {
+  &_wrapper {
+    // border: 2px solid red;
+    width: 35rem;
+    padding: 5rem 1rem 3rem 1rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-family-jost;
+    flex-direction: column;
+    position: relative;
+    border-radius: 0.7rem;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
+    max-height: 23rem;
+    
+
+    form {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    h2 {
+      position: absolute;
+      font-size: $font-size-22;
+      font-weight: $font-weight-medium;
+      background-color: $main-color-4;
+      color: white;
+      width: 90%;
+      top: -3.5rem;
+      text-align: center;
+      padding: 2rem 0rem;
+      border-radius: 0.7rem;
+    }
+  }
+}
+
+.input {
+  &_wrapper {
+    // margin-bottom: 2rem;
+    display: block;
+    width: 100%;
+    // border: 2px solid red;
+
+    input {
+      width: 100% !important;
+      font-size: $font-size-18;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      // margin: auto !important;
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
+      &:focus {
+        outline: none;
+        box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
+        border-bottom: 3px solid $color-primary;
+      }
+
+      &:focus:invalid {
+        border-bottom: 3px solid $color-secondary-dark;
+      }
+
+      &::-webkit-input-placeholder {
+        color: $color-grey-dark-2;
+      }
+    }
+    &_label {
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 0.1rem;
+      // margin-left: 2rem;
+      // margin-top: 0.7rem;
+      margin: 0.7rem auto !important;
+      display: block;
+      transition: all 0.3s;
+      //   border: 2px solid green;
+      width: 100%;
+      margin-left: 1rem;
+      text-align: start;
+      padding: 0rem 1rem;
+    }
+
+    input:placeholder-shown + &_label {
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-4rem);
+    }
+  }
+}
+.login_btn {
+  width: 40%;
+  // margin: 0rem;
+  align-self: flex-end;
+  margin-right: 2rem;
+}
